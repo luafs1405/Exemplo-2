@@ -48,3 +48,39 @@ console.log(numFloat1.toString());
 
 let numInt = 100;
 console.log(numInt.toString());
+
+//METODOS - PARTE 1
+
+//LENGTH - VERIFICA O TAMANHO DA STRING
+
+let frase = "o mundo da tecnologia";
+console.log(frase.length);
+
+//indexOf - retorna um trecho de um texto
+
+let texto = "programação sustentavel";
+console.log(texto.indexOf("ão"));
+
+//slice - retorna parte de um texto apontando o inicio e o final
+
+let info = "processamento de ponta";
+console.log(info.slice(1,5));
+
+//OPERADORES ARITMETICOS
+
+const a = 10;
+const b = 20;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+
+//OPERADORES LOGICOS
+const num3 =20;
+const num4 =30;
+
+console.log(num3 < num4);
+console.log(num3 < num4 && num4 < 50);
+console.log(num3 > num4 || num4 > num3);
+console.log(num4 == num3 || num4 > num3)
