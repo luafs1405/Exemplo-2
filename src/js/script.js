@@ -1,70 +1,70 @@
-//DECLARAÇÕES E VARIAVEIS
-var nome = 'fiap';
-console.log(nome)
+// //DECLARAÇÕES E VARIAVEIS
+// var nome = 'fiap';
+// console.log(nome)
 
-let idade = 18;
-console.log(idade)
+// let idade = 18;
+// console.log(idade)
 
-const sobrenome = "Soares";
-console.log(sobrenome)
-//undefined
-let aula;
-console.log(aula)
-//null
-let valor = null;
-console.log(valor)
-//{}--> objeto
-let exemplo1={};
-//[]-->array
-let exemplo2=[];
+// const sobrenome = "Soares";
+// console.log(sobrenome)
+// //undefined
+// let aula;
+// console.log(aula)
+// //null
+// let valor = null;
+// console.log(valor)
+// //{}--> objeto
+// let exemplo1={};
+// //[]-->array
+// let exemplo2=[];
 
-//TIPOS DE VARIAVEIS
-let exemplo3 = 10;
-console.log(typeof exemplo3)
+// //TIPOS DE VARIAVEIS
+// let exemplo3 = 10;
+// console.log(typeof exemplo3)
 
-let exemplo4 = "Aula"
-console.log(typeof exemplo4)
+// let exemplo4 = "Aula"
+// console.log(typeof exemplo4)
 
-let exemplo5 = true;
-console.log(typeof exemplo5)
+// let exemplo5 = true;
+// console.log(typeof exemplo5)
 
-let exemplo6 =["huguinho", "Zezinho", "tobias"]
-console.log(typeof exemplo6)
+// let exemplo6 =["huguinho", "Zezinho", "tobias"]
+// console.log(typeof exemplo6)
 
 
-//CONVERSÕES
+// //CONVERSÕES
 
-//float => inteiro
-let numFloat = 123.56;
-console.log(parseInt(numFloat));
+// //float => inteiro
+// let numFloat = 123.56;
+// console.log(parseInt(numFloat));
 
-//string => float
-let numString = "547.987";
-console.log(parseFloat(numString));
+// //string => float
+// let numString = "547.987";
+// console.log(parseFloat(numString));
 
-//float => string
-let numFloat1 = 554.665;
-console.log(numFloat1.toString());
+// //float => string
+// let numFloat1 = 554.665;
+// console.log(numFloat1.toString());
 
-let numInt = 100;
-console.log(numInt.toString());
+// let numInt = 100;
+// console.log(numInt.toString());
 
-//METODOS - PARTE 1
+// //METODOS - PARTE 1
 
-//LENGTH - VERIFICA O TAMANHO DA STRING
+// //LENGTH - VERIFICA O TAMANHO DA STRING
 
-let frase = "o mundo da tecnologia";
-console.log(frase.length);
+// let frase = "o mundo da tecnologia";
+// console.log(frase.length);
 
-//indexOf - retorna um trecho de um texto
+// //indexOf - retorna um trecho de um texto
 
-let texto = "programação sustentavel";
-console.log(texto.indexOf("ão"));
+// let texto = "programação sustentavel";
+// console.log(texto.indexOf("ão"));
 
-//slice - retorna parte de um texto apontando o inicio e o final
+// //slice - retorna parte de um texto apontando o inicio e o final
 
-let info = "processamento de ponta";
-console.log(info.slice(1,5));
+// let info = "processamento de ponta";
+// console.log(info.slice(1,5));
 
 //OPERADORES ARITMETICOS
 
@@ -86,9 +86,53 @@ console.log(info.slice(1,5));
 // console.log(num4 == num3 || num4 > num3);
 
 //OPERADORES DE COMPARAÇÃO
-const num5 =25;
-const num6 =35;
+// const num5 =25;
+// const num6 =35;
 
-console.log(num5 == num6);//compara
-console.log(num5 === num6);//compara e verifica o tipo da variavel
-console.log(num5 != num6); //diferente
+// console.log(num5 == num6);//compara
+// console.log(num5 === num6);//compara e verifica o tipo da variavel
+// console.log(num5 != num6); //diferente
+
+// //ESTRUTURA CONDICIONAL
+
+// //IF
+
+// let valor1 =100;
+
+// if(valor1 ==100){
+//     console.log("E verdadeiro");
+// }
+
+// //if/else
+
+// let valor2 = 1010;
+
+// if(valor2 == 100){
+//     console.log("Valor correto")
+// }else{
+//     console.log("Valor errado")
+// }
+
+// //if/else - encadeado ou aninhado
+
+// let idade = 60;
+
+// if(idade < 14){
+//     console.log("Não pode entrar na balada")
+// }
+// else if(idade >= 14 && idade < 18){
+//     console.log("Pode entrar na balada")
+// }
+// else if (idade > 50 && idade < 70){
+//  console.log("Você não tem idade para isso")
+// }
+// else{
+//     console.log("Fica em casa")
+// }
+
+//Condição ternaria
+
+let valor3 = 301;
+//"? if"": else"
+let resultado = valor3 == 300 ? "certo": "Errado";
+console.log(resultado)
